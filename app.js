@@ -500,7 +500,7 @@ console.log(pp);
       usersinfo.push(user)
 console.log(usersinfo);    
 if(usersinfo[0].position==='Waiter'){
-   res.redirect('./bill/bill.html')  
+   res.redirect('/bill/bill.html')  
 
 }  
 else if(usersinfo[0].position==='Chef')

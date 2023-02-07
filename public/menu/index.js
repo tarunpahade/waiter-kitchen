@@ -1,4 +1,4 @@
-var socket=io('https://waiter-app-5a9c8.web.app//menu');
+var socket=io('https://waiter-app-5a9c8.web.app/menu');
 var socket = io();
 
 
@@ -23,7 +23,7 @@ const chinese=[]
 
 
 // const appdata=JSON.parse(localStorage.getItem('kot')) || []
-const baseUrl1='https://waiter-app-5a9c8.web.app//send'
+const baseUrl1='https://waiter-app-5a9c8.web.app/send'
 getinfos()
 async function getinfos() {
   const res = await fetch(baseUrl1,
